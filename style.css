@@ -1,0 +1,46 @@
+body {
+    /*if Arial is not available on the user’s device,
+            the browser will pick any available sans-serif font installed (like Helvetica on Mac, or Liberation Sans on Linux).*/
+     font-family: Arial, sans-serif; 
+     padding: 20px;
+ }
+
+h2 {
+     text-align: center;
+ }
+
+table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 20px;
+     background-color: aqua;
+ }
+
+th, td {
+     width: 15%;
+     padding: 10px;
+     border: 1px solid #1b34c4;
+     text-align: center;
+ }
+
+th {
+     background-color: #50e280;
+ }
+
+.highlighted {
+     background-color: orange;
+     color: white;
+     font-weight: bold;
+ }
+ .nextPageBtn{
+    border: none;
+    padding: 10px;
+    background-color: #394fce;
+    color: white;
+    font-weight: bold;
+    &:hover {
+        background-color: #1ea72a;
+    }
+    vertical-align: bottom;
+    margin-top: 20px;;
+ }
